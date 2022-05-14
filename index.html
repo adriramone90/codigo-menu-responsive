@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Este link te permite traer iconos de font awesome con solo poner una clase-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Este link trae el archivo css-->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Menu Responsive</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p>LOGO</p>
+        </div>
+        <nav>
+            <!--Dentro del nav ponemos un button
+            y dentro del button ponemos el icono de font awesome-->
+            <button id="btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!--los id son muy importantes para que podamos manipular los elementos html con js-->
+            <ul id="menu">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Este script permite manipular el html con la css-->
+   <script src="/public/js/index.js"></script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*Esta clase es fundamental para usar en el js y activar y desactivar el menu*/
+.active{
+    display: none;
+}
+/*aca le saco las viñetas al li*/
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+/*Esto solo para que puedas ver como se mueven los elemento dentro del header
+y para centrar los elementos con flex*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+
+/*Esto es para que desaparezca el boton al agrandar la pantalla, que sea responsive*/
+@media (min-width: 800px){
+    #btn-menu{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        justify-content: space-around;
+    }
+}
